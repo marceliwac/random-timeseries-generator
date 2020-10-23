@@ -1,0 +1,16 @@
+import enum
+
+
+class Trend(enum.Enum):
+    STEADY = 1
+    LINEAR_INCREASING = 2
+    LINEAR_DECREASING = 3
+    EXPONENTIAL_INCREASING = 4
+    EXPONENTIAL_DECREASING = 5
+    LOGARITHMIC_INCREASING = 6
+    LOGARITHMIC_DECREASING = 7
+
+
+class ValueType(enum.Enum):
+    INT = 1
+    FLOAT = 2
