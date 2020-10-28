@@ -171,7 +171,7 @@ def _map_random_data_to_timeseries(_timeseries, _step, _trend, _value_type, _min
     if _trend == Types.Trend['LOGARITHMIC_INCREASING']:
         return _generate_logarithmic_random_data(_timeseries, random_function, _step, _min, _max)
     if _trend == Types.Trend['LOGARITHMIC_DECREASING']:
-        return _generate_logarithmic_random_data(_timeseries, random_function, _step, _min, _max)
+        return _generate_logarithmic_random_data(_timeseries, random_function, _step, _min, _max, True)
     else:
         raise Exception('Invalid trend type supplied!')
 
