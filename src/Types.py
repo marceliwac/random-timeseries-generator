@@ -15,3 +15,9 @@ class Trend(enum.Enum):
 class ValueType(enum.Enum):
     INT = 0
     FLOAT = 1
+
+
+class MissingMethod(enum.Enum):
+    REMOVE = 0
+    SET_NONE = 1
+
